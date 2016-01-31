@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CrunchTime</string>
+    <string-array name="exercise_entries">
+        <item>minutes of Cycling</item>
+        <item>minutes of Jogging</item>
+        <item>minutes of Jumping Jacks</item>
+        <item>minutes of Leg-lift</item>
+        <item>minutes of Plank</item>
+        <item>reps of Pullups</item>
+        <item>reps of Pushups</item>
+        <item>reps of Situps</item>
+        <item>reps of Squats</item>
+        <item>minutes of Stair-Climbing</item>
+        <item>minutes of Swimming</item>
+        <item>minutes of Walking</item>
+    </string-array>
+</resources>
