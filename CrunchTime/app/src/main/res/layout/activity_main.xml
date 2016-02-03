@@ -7,17 +7,19 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
     tools:context="com.example.nathaniel.crunchtime.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Select an exercise and enter an amount."
-        android:id="@+id/textView" />
+        android:id="@+id/textView"
+        android:textColor="#000000" />
 
     <Button
-        android:layout_width="80dp"
-        android:layout_height="40dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:text="CONVERT"
         android:id="@+id/button"
         android:textColor="#fdfcfc"
@@ -53,7 +55,8 @@
         android:id="@+id/textView2"
         android:layout_below="@+id/button"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="65dp" />
+        android:layout_marginTop="65dp"
+        android:textColor="#000000" />
 
     <Spinner
         android:layout_width="wrap_content"
@@ -70,7 +73,8 @@
         android:id="@+id/textView3"
         android:width="50dp"
         android:layout_alignTop="@+id/spinner2"
-        android:layout_toStartOf="@+id/spinner" />
+        android:layout_toStartOf="@+id/spinner"
+        android:textColor="#000000" />
 
 
 </RelativeLayout>
