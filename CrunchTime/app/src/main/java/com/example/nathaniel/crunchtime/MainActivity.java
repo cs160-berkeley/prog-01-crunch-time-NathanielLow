@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,14 +17,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         final Button b = (Button)findViewById(R.id.button);
         final EditText e = (EditText)findViewById(R.id.editText);
+        final EditText e2 = (EditText)findViewById(R.id.editText2);
         final TextView caloriesBurned = (TextView)findViewById(R.id.textView2);
         final TextView convertTo = (TextView)findViewById(R.id.textView3);
         final Spinner inputSpin = (Spinner)findViewById(R.id.spinner);
         final Spinner outputSpin = (Spinner)findViewById(R.id.spinner2);
+        final ToggleButton toggle = (ToggleButton) findViewById(R.id.toggleButton);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String number = (String)e.getText().toString();
+                String number = "";
+                if (toggle.isChecked()) {
+                    number = e2.getText().toString();
+                }
+                else {
+                    number = e.getText().toString();
+                }
                 if (number.length() != 0) {
                     int input = Integer.parseInt(number);
                     String inputEx = inputSpin.getSelectedItem().toString();
@@ -102,11 +111,21 @@ public class MainActivity extends AppCompatActivity {
                     if (outputEx.equals("minutes of Walking")) {
                         outEx = 20;
                     }
-                    int calories = exToCal(input, inEx);
-                    int otherEx = calToEx(calories, outEx);
-                    String text = calories + " calories burned.";
-                    caloriesBurned.setText(text);
-                    convertTo.setText(otherEx + "");
+                    if (toggle.isChecked()) {
+
+                    }
+                    if (toggle.isChecked()) {
+                        int ex1 = calToEx(input, inEx);
+                        int ex2 = calToEx(input, outEx);
+                        e.setText(ex1 + "");
+                        convertTo.setText(ex2 + "");
+                    }
+                    else {
+                        int calories = exToCal(input, inEx);
+                        int otherEx = calToEx(calories, outEx);
+                        e2.setText(calories +"");
+                        convertTo.setText(otherEx + "");
+                    }
                 }
             }
         });

@@ -14,4 +14,9 @@
         <item>minutes of Swimming</item>
         <item>minutes of Walking</item>
     </string-array>
+    <string name="button_text">Convert</string>
+    <string name="instructions">Select EXERCISE or CALORIES and enter an amount.</string>
+    <string name="hint">#</string>
+    <string name="initial"> calories burned.</string>
+    <string name="initial_convert">0</string>
 </resources>
