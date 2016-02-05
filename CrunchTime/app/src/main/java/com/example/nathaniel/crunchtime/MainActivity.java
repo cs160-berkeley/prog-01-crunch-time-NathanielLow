@@ -42,73 +42,73 @@ public class MainActivity extends AppCompatActivity {
                     if (inputEx.equals("minutes of Cycling")) {
                         inEx = 12;
                     }
-                    if (inputEx.equals("minutes of Jogging")) {
+                    else if (inputEx.equals("minutes of Jogging")) {
                         inEx = 12;
                     }
-                    if (inputEx.equals("minutes of Jumping Jacks")) {
+                    else if (inputEx.equals("minutes of Jumping Jacks")) {
                         inEx = 10;
                     }
-                    if (inputEx.equals("minutes of Leg-lift")) {
+                    else if (inputEx.equals("minutes of Leg-lift")) {
                         inEx = 25;
                     }
-                    if (inputEx.equals("minutes of Plank")) {
+                    else if (inputEx.equals("minutes of Plank")) {
                         inEx = 25;
                     }
-                    if (inputEx.equals("reps of Pullups")) {
+                    else if (inputEx.equals("reps of Pullups")) {
                         inEx = 100;
                     }
-                    if (inputEx.equals("reps of Pushups")) {
+                    else if (inputEx.equals("reps of Pushups")) {
                         inEx = 350;
                     }
-                    if (inputEx.equals("reps of Situps")) {
+                    else if (inputEx.equals("reps of Situps")) {
                         inEx = 200;
                     }
-                    if (inputEx.equals("reps of Squats")) {
+                    else if (inputEx.equals("reps of Squats")) {
                         inEx = 225;
                     }
-                    if (inputEx.equals("minutes of Stair-Climbing")) {
+                    else if (inputEx.equals("minutes of Stair-Climbing")) {
                         inEx = 15;
                     }
-                    if (inputEx.equals("minutes of Swimming")) {
+                    else if (inputEx.equals("minutes of Swimming")) {
                         inEx = 13;
                     }
-                    if (inputEx.equals("minutes of Walking")) {
+                    else if (inputEx.equals("minutes of Walking")) {
                         inEx = 20;
                     }
                     if (outputEx.equals("minutes of Cycling")) {
                         outEx = 12;
                     }
-                    if (outputEx.equals("minutes of Jogging")) {
+                    else if (outputEx.equals("minutes of Jogging")) {
                         outEx = 12;
                     }
-                    if (outputEx.equals("minutes of Jumping Jacks")) {
+                    else if (outputEx.equals("minutes of Jumping Jacks")) {
                         outEx = 10;
                     }
-                    if (outputEx.equals("minutes of Leg-lift")) {
+                    else if (outputEx.equals("minutes of Leg-lift")) {
                         outEx = 25;
                     }
-                    if (outputEx.equals("minutes of Plank")) {
+                    else if (outputEx.equals("minutes of Plank")) {
                         outEx = 25;
                     }
-                    if (outputEx.equals("reps of Pullups")) {
+                    else if (outputEx.equals("reps of Pullups")) {
                         outEx = 100;
                     }
-                    if (outputEx.equals("reps of Pushups")) {
+                    else if (outputEx.equals("reps of Pushups")) {
                         outEx = 350;
                     }
-                    if (outputEx.equals("reps of Situps")) {
+                    else if (outputEx.equals("reps of Situps")) {
                         outEx = 200;
                     }
-                    if (outputEx.equals("reps of Squats")) {
+                    else if (outputEx.equals("reps of Squats")) {
                         outEx = 225;
                     }
-                    if (outputEx.equals("minutes of Stair-Climbing")) {
+                    else if (outputEx.equals("minutes of Stair-Climbing")) {
                         outEx = 15;
                     }
-                    if (outputEx.equals("minutes of Swimming")) {
+                    else if (outputEx.equals("minutes of Swimming")) {
                         outEx = 13;
                     }
-                    if (outputEx.equals("minutes of Walking")) {
+                    else if (outputEx.equals("minutes of Walking")) {
                         outEx = 20;
                     }
                     if (toggle.isChecked()) {
