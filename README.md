@@ -12,13 +12,10 @@ See [Crunch Time] (http://youtu.be/Cvral3XKF44?hd=1)
 
 ## Screenshots
 
-<img src="screenshots/CrunchTime.png" height="400" alt="Screenshot"/>
+<img src="screenshots/CrunchTime.PNG" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
 
 * App programmed using Android Studio
 * Video recorded using Screencast-O-Matic
 * Special thanks to Jack Thakar for tips on Android programming
-* Any other support
-
-*Feel free to enhance your README. For Markdown syntax, see [the GitHub Guides](https://guides.github.com/features/mastering-markdown/). Remove this line in your submission.*
