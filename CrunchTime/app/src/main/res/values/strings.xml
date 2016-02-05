@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CrunchTime</string>
+    <string name="app_name">Crunch Time</string>
     <string-array name="exercise_entries">
         <item>minutes of Cycling</item>
         <item>minutes of Jogging</item>

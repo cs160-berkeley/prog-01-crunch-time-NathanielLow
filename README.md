@@ -8,15 +8,17 @@ Nathaniel Low ([low.nathaniel@berkeley.edu](mailto:low.nathaniel@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [Crunch Time] (http://youtu.be/Cvral3XKF44?hd=1)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/CrunchTime.png" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
+* App programmed using Android Studio
+* Video recorded using Screencast-O-Matic
+* Special thanks to Jack Thakar for tips on Android programming
 * Any other support
 
 *Feel free to enhance your README. For Markdown syntax, see [the GitHub Guides](https://guides.github.com/features/mastering-markdown/). Remove this line in your submission.*
