@@ -18,4 +18,4 @@ See [Crunch Time] (http://youtu.be/Cvral3XKF44?hd=1)
 
 * App programmed using Android Studio
 * Video recorded using Screencast-O-Matic
-* Special thanks to Jack Thakar for tips on Android programming
+* Special thanks to Jack Thakar (@jathak) for tips on Android programming
